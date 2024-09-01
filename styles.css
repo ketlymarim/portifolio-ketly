@@ -1,31 +1,35 @@
 /* Estilos gerais para a página */
+html {
+    font-size: 20px; /* Tamanho base da fonte aumentado para zoom geral */
+    box-sizing: border-box; /* Inclui padding e bordas no tamanho total do elemento */
+}
+
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.8; /* Aumenta a altura da linha para melhorar a legibilidade */
+    line-height: 1.8; /* Aumenta a altura da linha para melhor legibilidade */
     margin: 0;
     padding: 0;
     background-color: #f0f0f0; /* Cor de fundo suave */
-    font-size: 18px; /* Aumenta o tamanho da fonte base */
 }
 
 /* Estilos para o cabeçalho */
 header {
     background-color: #333; /* Cinza escuro */
     color: #fff;
-    padding: 30px 0; /* Aumenta o padding para mais espaço */
+    padding: 30px 0; /* Aumenta o padding */
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em; /* Aumenta o tamanho da fonte do título */
+    font-size: 3em; /* Aumenta o tamanho do título */
 }
 
 /* Estilos para a navegação */
 nav {
     background: #555; /* Cinza médio */
     color: #fff;
-    padding: 15px 0; /* Aumenta o padding */
+    padding: 20px 0; /* Aumenta o padding */
 }
 
 nav ul {
@@ -37,13 +41,13 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px; /* Aumenta o espaçamento entre itens */
+    margin-right: 25px; /* Aumenta o espaçamento entre itens */
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.4em; /* Aumenta o tamanho da fonte dos links */
+    font-size: 1.5em; /* Aumenta o tamanho dos links */
 }
 
 nav ul li a:hover {
@@ -52,17 +56,19 @@ nav ul li a:hover {
 
 /* Estilos para as seções */
 section {
-    margin: 30px auto; /* Aumenta o espaço acima e abaixo da seção */
-    padding: 30px; /* Aumenta o padding */
+    margin: 50px auto; /* Aumenta a margem */
+    padding: 40px; /* Aumenta o padding */
     background: #fff; /* Fundo branco para contraste */
-    max-width: 900px; /* Aumenta a largura máxima */
-    border-radius: 10px; /* Aumenta o raio da borda */
-    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Aumenta a sombra */
+    max-width: 1200px; /* Aumenta a largura máxima */
+    border-radius: 12px; /* Aumenta o raio da borda */
+    box-shadow: 0 0 20px rgba(0,0,0,0.1); /* Aumenta a sombra */
 }
 
+/* Estilos para os títulos das seções */
 h2 {
     border-bottom: 3px solid #333; /* Aumenta a espessura da borda inferior */
     padding-bottom: 15px; /* Aumenta o padding inferior */
+    font-size: 2em; /* Aumenta o tamanho dos subtítulos */
 }
 
 /* Estilos para o portfólio */
@@ -72,12 +78,13 @@ h2 {
 }
 
 #portfolio li {
-    margin-bottom: 15px; /* Aumenta o espaçamento entre os itens */
+    margin-bottom: 20px; /* Aumenta o espaçamento entre os itens */
 }
 
 #portfolio a {
     color: #333; /* Cinza escuro */
     text-decoration: none;
+    font-size: 1.3em; /* Aumenta o tamanho dos links */
 }
 
 #portfolio a:hover {
@@ -100,7 +107,7 @@ th, td {
 }
 
 th {
-    width: 35%; /* Aumenta a largura da coluna de cabeçalhos */
+    width: 40%; /* Aumenta a largura da coluna de cabeçalhos */
 }
 
 input[type="text"],
@@ -109,16 +116,18 @@ textarea {
     width: 100%;
     padding: 15px; /* Aumenta o padding dos campos de entrada */
     border: 1px solid #ccc;
-    border-radius: 5px; /* Aumenta o raio da borda */
+    border-radius: 6px; /* Aumenta o raio da borda */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos campos */
 }
 
 button {
     background-color: #333; /* Cinza escuro */
     color: #fff;
     border: none;
-    padding: 15px 25px; /* Aumenta o padding do botão */
-    border-radius: 5px; /* Aumenta o raio da borda */
+    padding: 15px 30px; /* Aumenta o padding do botão */
+    border-radius: 6px; /* Aumenta o raio da borda */
     cursor: pointer;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte do botão */
 }
 
 button:hover {
@@ -146,7 +155,7 @@ button:hover {
     height: auto; /* Mantém a proporção da imagem */
     margin: 30px 0; /* Aumenta o espaço acima e abaixo da imagem */
     border: 3px solid #333; /* Aumenta a espessura da borda */
-    border-radius: 10px; /* Aumenta o raio da borda */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+    border-radius: 12px; /* Aumenta o raio da borda */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
     object-fit: cover; /* Ajusta a imagem para cobrir o contêiner mantendo as proporções */
 }
