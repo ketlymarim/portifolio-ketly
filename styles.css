@@ -50,7 +50,7 @@ nav ul li a:hover {
 }
 
 /* Estilos para as seções */
-div {
+section {
     margin: 20px auto;
     padding: 20px;
     background: #fff; /* Fundo branco para contraste */
@@ -147,4 +147,5 @@ button:hover {
     border: 2px solid #333;  /* Borda cinza escuro ao redor da imagem */
     border-radius: 8px;      /* Bordas arredondadas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar a imagem */
+    object-fit: cover;       /* Ajusta a imagem para cobrir o contêiner mantendo as proporções */
 }
