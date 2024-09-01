@@ -137,3 +137,14 @@ button:hover {
     display: flex;
     align-items: center;
 }
+
+/* Estilos para a imagem do front-end no portfólio */
+.imagem.front-end {
+    display: block;           /* Garante que a imagem seja exibida como bloco, ocupando uma linha inteira */
+    max-width: 100%;          /* Faz com que a imagem se ajuste ao contêiner sem ultrapassar sua largura */
+    height: auto;            /* Mantém a proporção da imagem */
+    margin: 20px 0;          /* Espaço acima e abaixo da imagem */
+    border: 2px solid #333;  /* Borda cinza escuro ao redor da imagem */
+    border-radius: 8px;      /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar a imagem */
+}
